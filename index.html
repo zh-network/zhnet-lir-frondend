@@ -6,16 +6,29 @@
     <meta name="renderer" content="webkit"/>
     <meta name="force-rendering" content="webkit"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-
+    <script src="assets/anime.js"></script>
+    <link rel="stylesheet" href="assets/anime.css">
     <style>
         .container {
             position: absolute;
-            top: 33%;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .descr-top {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .descr-end {
+            position: absolute;
+            top: 85%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
         h1 {
-            font-size: 70px; /* 默认字体大小 */
+            font-size: 80px; /* 默认字体大小 */
             font-family:Arial;
             font-weight:lighter;
         }
@@ -32,18 +45,28 @@
             }
         }
 
+        .center-text {
+        text-align: center;
+        }
         .bold-text {
             font-weight: bold; /* 设置字体加粗 */
         }
+        @font-face {
+        font-family: opensauce; /* 字体名称 */
+        src: url('assets/opensauce-ttf/OpenSauceSans-Light.ttf') format('truetype'); /* 字体文件路径和格式 */
+        }
 
+        #custom-text {
+        font-family: opensauce, Arial, sans-serif; /* 使用自定义字体，如果未加载成功，则使用备用字体 */
+        }
     </style>
 
-    <title>ZH-NET</title>
+    <title>ZH Internet Services(LIR)</title>
   </head>
-  <body>
-
-
-    <h1 class="container"><span class="bold-text">LIR</span> Services</h1>
+  <body style="background-color: black;">
+    <p style="letter-spacing: 2px;" class="descr-top center-text"><font size="3px" id="custom-text" color="white">RIPE NCC MEMBER - UK.ZHNET</font></p>
+    <h1 class="container center-text"><span class="bold-text"><font id="custom-text" color="#9179FA">LIR</span> Services</font></br><font color="white">ZH NET</font></h1>
+    <p style="letter-spacing: 2px; line-height: 1.5;"class="descr-end center-text"><font size="4px" id="custom-text" color="white">Local Internet Registry Services - Register your own ASN / IP prefixes from ASH Internet Services ( RIPE NCC )</br></br>info@zhnet.co.uk</font></p>
 
   </body>
 </html>

@@ -5,5 +5,5 @@
 2a0f:7800:100::/40,GB,GB-LND,London,
 174.136.238.0/24,US,US-CA,Los Angeles,
 2a12:3fc2:3000::/36,US,US-CA,Los Angeles,
-2a0f:7800:ff60::/44,KP,KP-01,P'yǒngyang,
+2a0f:7800:ff60::/44,KP,KP-01,,
 2a0f:7800:ff50::/44,AQ,,,

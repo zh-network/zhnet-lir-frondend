@@ -9,12 +9,14 @@
 #LAX-US
 174.136.238.0/24,US,US-CA,Los Angeles,
 2a12:3fc2:3000::/36,US,US-CA,Los Angeles,
+#HK
+23.150.11.0/24,HK,CN-HK,Hong Kong,
 #SJC-US
 185.139.35.0/24,US,US-CA,San Jose,
 2a0f:7800:800::/40,US,US-CA,San Jose,
 #PHX-US
 154.62.183.0/24,US,US-CA,Los Angeles,
-2a0f:7800:700::/40,US,US-AZ,Phoenix,
+2a0f:7800:701::/48,US,US-AZ,Phoenix,
 216.24.215.0/24,US,US-AZ,Phoenix,
 #SEL-KR
 181.215.201.0/24,KR,KR-11,Seoul,
@@ -24,3 +26,8 @@
 #Customer-Area
 #Customer-ORG-WY19-RIPE
 2a0f:7803:ff10::/48,AQ,,,
+#Customer-S5proxy株式会社
+2a0f:7800:702::/48,JP,JP-13,Tokyo,
+2a0f:7800:703::/48,KR,KR-11,Seoul,
+2a0f:7800:704::/48,TW,TW-TPE,Taipei,
+2a0f:7800:705::/48,IN,IN-DL,Delhi,

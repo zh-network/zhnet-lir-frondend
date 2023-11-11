@@ -1,5 +1,5 @@
 #AS59538 & AS202888 UPSTREAM NETWORK LTD Geofeed
-#Last Update:20230805
+#Last Update:20231111
 #prefix,country_code,region_code,city,postal
 #LHR2
 82.152.249.0/24,GB,GB-LND,London,

@@ -10,8 +10,13 @@
 154.61.160.0/24,US,US-WA,Seattle,
 2a0f:7800:a00::/40,US,US-WA,Seattle,
 #LAX-US
-174.136.238.0/24,US,US-CA,Los Angeles,
 2a12:3fc2:3000::/36,US,US-CA,Los Angeles,
+#CA-ON
+154.61.162.0/24,CA,CA-ON,Ontario,
+154.61.163.0/24,CA,CA-ON,Ontario,
+2a0f:7800:b02::/48,CA,CA-ON,Ontario,
+2a0f:7800:b03::/48,CA,CA-ON,Ontario,
+174.136.238.0/24,US,CA,CA-ON,Ontario,
 #HK
 #SJC-US
 185.139.35.0/24,US,US-CA,San Jose,
@@ -21,12 +26,14 @@
 216.24.215.0/24,US,US-AZ,Phoenix,
 #SEL-KR
 181.215.201.0/24,KR,KR-11,Seoul,
-#CA-ON
-154.61.161.0/24,CA,CA-ON,Ontario,
-2a0f:7800:b00::/40,CA,CA-ON,Ontario,
 #TYO-JP
 163.5.92.0/24,JP,JP-13,Tokyo,
 2a0f:7800:900::/40,JP,JP-13,Tokyo,
+#Customer-trecert
+38.75.44.0/24,US,US-CA,San Jose,
+2a12:3fc2:3202::/48,US,US-CA,San Jose,
+154.61.161.0/24,CA,CA-ON,Ontario,
+2a0f:7800:b01::/48,CA,CA-ON,Ontario,
 #Customer-S5proxy株式会社
 2a0f:7800:702::/48,JP,JP-13,Tokyo,
 2a0f:7800:703::/48,KR,KR-11,Seoul,
@@ -44,5 +51,3 @@
 2a0f:7800:103::/48,GB,GB-LND,London,
 2a0f:7800:104::/48,DE,DE-HE,Frankfurt,
 2a0f:7800:105::/48,NL,NL-NH,Amsterdam,
-#Customer-trecert
-38.75.44.0/24,US,US-CA,San Jose,

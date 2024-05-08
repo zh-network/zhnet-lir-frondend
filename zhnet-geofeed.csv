@@ -3,6 +3,7 @@
 #prefix,country_code,region_code,city,postal
 #LHR2
 82.152.249.0/24,GB,GB-LND,London,
+154.62.183.0/24,GB,GB-LND,London,
 2a0f:7800:100::/40,GB,GB-LND,London,
 2a0f:7800:500::/40,GB,GB-LND,London,
 154.64.136.0/24,GB,GB-LND,London,

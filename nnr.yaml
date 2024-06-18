@@ -17,6 +17,7 @@ dns:
 proxies:
   - {name: 🇯🇵 安徽-日本2x-LAINJP, server: 2fd3ffd3-1bdb-424c-a9d8-487236698c29.ebgp.us, port: 38657, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: uk.zhnet, tfo: false}
   - {name: 🇯🇵 上海-日本3x-LAINJP, server: 0428c217-b76f-40f0-b9df-b5fef7be0a34.ebgp.us, port: 46867, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: uk.zhnet, tfo: false}
+  - {name: 广州-香港6x-LAINHKv6, server: b4f0a252-1df1-4056-b5a2-b47905906bfe.ebgp.us, port: 25157, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: uk.zhnet, tfo: false}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -28,6 +29,7 @@ proxy-groups:
     proxies:
       - 🇯🇵 安徽-日本2x-LAINJP
       - 🇯🇵 上海-日本3x-LAINJP
+      - 广州-香港6x-LAINHKv6
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -35,6 +37,7 @@ proxy-groups:
     proxies:
       - 🇯🇵 安徽-日本2x-LAINJP
       - 🇯🇵 上海-日本3x-LAINJP
+      - 广州-香港6x-LAINHKv6
   - name: 🎯 国内网站设置
     type: select
     proxies:

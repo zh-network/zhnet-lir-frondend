@@ -9,6 +9,7 @@ proxies:
   - {name: 🇯🇵 上海-日本3x-LAINJP, server: 0428c217-b76f-40f0-b9df-b5fef7be0a34.ebgp.us, port: 46867, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: uk.zhnet, tfo: false}
   - {name: 广州-香港6x-LAINHKv6, server: b4f0a252-1df1-4056-b5a2-b47905906bfe.ebgp.us, port: 25157, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: uk.zhnet, tfo: false}
   - {name: 广州-香港6x-GCPv6, server: b4f0a252-1df1-4056-b5a2-b47905906bfe.ebgp.us, port: 25699, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: uk.zhnet, tfo: false}
+  - {name: 广州-香港6x-GCPv4, server: 6cf4a639-f0dd-42d3-81d7-f47e426264f6.ebgp.us, port: 26732, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: uk.zhnet, tfo: false}
   - {name: 广州-香港6x-UKZHv6, server: b4f0a252-1df1-4056-b5a2-b47905906bfe.ebgp.us, port: 25174, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: uk.zhnet, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -20,6 +21,7 @@ proxy-groups:
       - 🇯🇵 上海-日本3x-LAINJP
       - 广州-香港6x-LAINHKv6
       - 广州-香港6x-GCPv6
+      - 广州-香港6x-GCPv4
       - 广州-香港6x-UKZHv6
   - name: ♻️ 自动选择
     type: url-test
@@ -31,6 +33,7 @@ proxy-groups:
       - 🇯🇵 上海-日本3x-LAINJP
       - 广州-香港6x-LAINHKv6
       - 广州-香港6x-GCPv6
+      - 广州-香港6x-GCPv4
       - 广州-香港6x-UKZHv6
   - name: 🌍 国外媒体
     type: select
@@ -42,6 +45,7 @@ proxy-groups:
       - 🇯🇵 上海-日本3x-LAINJP
       - 广州-香港6x-LAINHKv6
       - 广州-香港6x-GCPv6
+      - 广州-香港6x-GCPv4
       - 广州-香港6x-UKZHv6
   - name: 📢 谷歌FCM
     type: select
@@ -53,6 +57,7 @@ proxy-groups:
       - 🇯🇵 上海-日本3x-LAINJP
       - 广州-香港6x-LAINHKv6
       - 广州-香港6x-GCPv6
+      - 广州-香港6x-GCPv4
       - 广州-香港6x-UKZHv6
   - name: 📲 电报信息
     type: select
@@ -63,6 +68,7 @@ proxy-groups:
       - 🇯🇵 上海-日本3x-LAINJP
       - 广州-香港6x-LAINHKv6
       - 广州-香港6x-GCPv6
+      - 广州-香港6x-GCPv4
       - 广州-香港6x-UKZHv6
   - name: Ⓜ️ 微软服务
     type: select
@@ -73,6 +79,7 @@ proxy-groups:
       - 🇯🇵 上海-日本3x-LAINJP
       - 广州-香港6x-LAINHKv6
       - 广州-香港6x-GCPv6
+      - 广州-香港6x-GCPv4
       - 广州-香港6x-UKZHv6
   - name: 🍎 苹果服务
     type: select
@@ -83,6 +90,7 @@ proxy-groups:
       - 🇯🇵 上海-日本3x-LAINJP
       - 广州-香港6x-LAINHKv6
       - 广州-香港6x-GCPv6
+      - 广州-香港6x-GCPv4
       - 广州-香港6x-UKZHv6
   - name: 🎯 全球直连
     type: select
@@ -115,6 +123,7 @@ proxy-groups:
       - 🇯🇵 上海-日本3x-LAINJP
       - 广州-香港6x-LAINHKv6
       - 广州-香港6x-GCPv6
+      - 广州-香港6x-GCPv4
       - 广州-香港6x-UKZHv6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

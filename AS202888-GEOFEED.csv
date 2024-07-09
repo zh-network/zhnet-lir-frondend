@@ -1,0 +1,6 @@
+#AS59538 & AS202888 UPSTREAM NETWORK LTD Geofeed
+#Last Update:20240122
+#prefix,country_code,region_code,city,postal
+174.136.238.0/24,US,US-CA,San Jose,
+2a12:3fc2:3202::/48,US,US-CA,San Jose,
+2a0f:7806:ffff::/48,SG,SG-01,Central Singapore,

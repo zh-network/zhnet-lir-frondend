@@ -1,0 +1,43 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
+network_check_url=http://www.baidu.com/
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=119.29.29.29
+server=223.5.5.5
+server=1.0.0.1
+server=8.8.8.8
+
+[policy]
+static=🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, 🇭🇰 GCP-GZ-HK-IPV6
+static=♻️ 自动选择, 🇭🇰 GCP-GZ-HK-IPV6, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300
+static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, 🇭🇰 GCP-GZ-HK-IPV6, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+[server_remote]
+
+[filter_remote]
+https://sub.xeton.dev/getruleset?type=2&url=cnVsZXMvQUNMNFNTUi9DbGFzaC9Mb2NhbEFyZWFOZXR3b3JrLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=cnVsZXMvQUNMNFNTUi9DbGFzaC9CYW5BRC5saXN0&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=cnVsZXMvQUNMNFNTUi9DbGFzaC9CYW5Qcm9ncmFtQUQubGlzdA&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0dsb2JhbE1lZGlhLmxpc3Q&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L1RlbGVncmFtLmxpc3Q&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=cnVsZXMvQUNMNFNTUi9DbGFzaC9Qcm94eUxpdGUubGlzdA&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=cnVsZXMvQUNMNFNTUi9DbGFzaC9DaGluYURvbWFpbi5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=cnVsZXMvQUNMNFNTUi9DbGFzaC9DaGluYUNvbXBhbnlJcC5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+shadowsocks = 2409:8c54:810:825::13:25699, method=chacha20-ietf-poly1305, password=uk.zhnet, tag=🇭🇰 GCP-GZ-HK-IPV6
+
+[filter_local]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[rewrite_local]
+
+[mitm]

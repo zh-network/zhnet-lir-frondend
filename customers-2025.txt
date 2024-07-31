@@ -45,7 +45,7 @@ zyc@zyc.name
  
 AS201335
 noc@7net.uk
-保留 还没付款
+已付款 保留
  
 AS214549
  549036875@qq.com
@@ -181,6 +181,7 @@ AS215543
  
 AS215575
 noc@highp.ing
+已付款 保留
 
  
 AS215592
@@ -213,7 +214,7 @@ AS215803
  
 AS215832
 admin@bambikano.com
-确定续费 暂未支付 价格50GBP
+已付款 保留
 
  
 AS215857
